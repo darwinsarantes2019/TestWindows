@@ -30,6 +30,7 @@
         {
             this.Sarantesnoseavestia = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Boton2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,11 +51,21 @@
             this.dataGridView1.Size = new System.Drawing.Size(656, 187);
             this.dataGridView1.TabIndex = 1;
             // 
+            // Boton2
+            // 
+            this.Boton2.Location = new System.Drawing.Point(236, 13);
+            this.Boton2.Name = "Boton2";
+            this.Boton2.Size = new System.Drawing.Size(112, 23);
+            this.Boton2.TabIndex = 2;
+            this.Boton2.Text = "Boton 2";
+            this.Boton2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 261);
+            this.Controls.Add(this.Boton2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Sarantesnoseavestia);
             this.Name = "Form1";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Button Sarantesnoseavestia;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button Boton2;
     }
 }
 
