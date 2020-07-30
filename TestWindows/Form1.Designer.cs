@@ -28,20 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.Sarantesnoseavestia = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Boton2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // Sarantesnoseavestia
+            // 
+            this.Sarantesnoseavestia.Location = new System.Drawing.Point(482, 24);
+            this.Sarantesnoseavestia.Name = "Sarantesnoseavestia";
+            this.Sarantesnoseavestia.Size = new System.Drawing.Size(186, 23);
+            this.Sarantesnoseavestia.TabIndex = 0;
+            this.Sarantesnoseavestia.Text = "Sarantes";
+            this.Sarantesnoseavestia.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 50);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(656, 187);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // Boton2
+            // 
+            this.Boton2.Location = new System.Drawing.Point(236, 13);
+            this.Boton2.Name = "Boton2";
+            this.Boton2.Size = new System.Drawing.Size(112, 23);
+            this.Boton2.TabIndex = 2;
+            this.Boton2.Text = "Boton 2";
+            this.Boton2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(522, 449);
+            this.ClientSize = new System.Drawing.Size(694, 261);
+            this.Controls.Add(this.Boton2);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Sarantesnoseavestia);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button Sarantesnoseavestia;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button Boton2;
     }
 }
 
